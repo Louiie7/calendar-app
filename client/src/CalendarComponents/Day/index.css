@@ -1,0 +1,140 @@
+.day{
+  position: absolute;
+  float : left;
+  top : 8vh;
+  left : 37vw;
+  width : 26vw;
+  height : 80vh;
+  border : solid 1px black;
+  -webkit-box-shadow: 6px 5px 5px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 5px 5px -5px rgba(0,0,0,0.75);
+box-shadow: 6px 5px 5px -5px rgba(0,0,0,0.75);
+}
+.day-content {
+  position: relative;
+  width : 26vw;
+  height : 80vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: rgb(252, 252, 252);
+}
+.list-item {
+  position: relative;
+  width : 25vw;
+  height : 7vh;
+  border-bottom : solid 1px black;
+}
+.list {
+  list-style-type: none;
+  margin : 0;
+  padding : 0;
+}
+.activity-input {
+  position: absolute;
+  top : 2vh;
+  left : 19vw;
+  width : 12vw;
+  height : 3vh;
+}
+.description-input {
+  position: absolute;
+  width : 12vw;
+  height : 3vh;
+  left : 7vw;
+  top : 10vh;
+}
+.start-time {
+  position: absolute;
+  height : fit-content;
+  top : 0;
+  bottom : 0;
+  margin : auto 0;
+  color : grey;
+}
+.end-time {
+  position: absolute;
+  height : fit-content;
+  top : 0;
+  bottom : 0;
+  right : 0;
+  margin : auto 0;
+  color : grey;
+}
+.activity-text {
+  position: absolute;
+  height : fit-content;
+  top : 0;
+  bottom : 0;
+  right : 0;
+  margin : auto 0;
+  width : 25vw;
+  font-size: 1.5rem;
+  font-weight : 190;
+  text-align: center;
+}
+.start {
+  position: absolute;
+  width : 8vw;
+  height : 3vh;
+  top : 20vh;
+  left : -3vw;
+}
+.end {
+  position: absolute;
+  width : 8vw;
+  height : 3vh;
+  top : 27vh;
+  left : -11vw;
+}
+.submitActivity {
+  position: absolute;
+  width : 10vw;
+  top : 38vh;
+  left : -20vw;
+}
+
+
+.day-header {
+  width : 30vw;
+  height : 8vh;
+  position: absolute;
+  font-size: 3rem;
+  float : left;
+  top : 0;
+  text-align: center;
+  left : 35vw;
+  font-weight: lighter;
+  top : 1vh;
+}
+.add-activity {
+  position: absolute;
+  left : 32.5vw;
+  top : 40vh;
+  width : 3vw;
+  height : 3vw;
+
+}
+.add-icon {
+  transform : scale(2);
+}
+*:focus {
+    outline: none;
+}
+.modal {
+  position: absolute;
+  float : left;
+  top : 10vh;
+  left : 25vw;
+  width : 50vw;
+  height : 60vh;
+  border: 1px black solid;
+  border-radius: 20px;
+  background-color: white;
+}
+.modal-header {
+  margin-top : 1vh;
+  font-size: 2.5rem;
+  font-weight: 40;
+  text-align: center;
+  color: grey;
+}

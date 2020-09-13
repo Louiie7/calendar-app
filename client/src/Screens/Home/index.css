@@ -1,0 +1,49 @@
+.date {
+  font-size: 5rem;
+}
+
+.home-background {
+  position: relative;
+  width : 100vw;
+  height : 100vh;
+  background: rgb(255,166,166);
+  background: linear-gradient(0deg, rgba(255,166,166,1) 0%, rgba(255,220,220,1) 31%, rgba(255,255,255,1) 100%);
+}
+
+.MenuItem {
+  color: black;
+}
+.MenuItem.selected { /* Increase the specificity */
+  color: blue;
+}
+
+.modeMenu {
+  position: fixed;
+  left : 35vw;
+  width : 30vw;
+  height : 5vh;
+  background-color: rgb(64, 64, 64);
+  border: 0.05vh solid;
+  border-radius: 2px;
+  overflow : hidden;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  bottom: 0;
+}
+
+.modeSelect {
+  padding-top: 1.25vh;
+  font-size: 2.5vh;
+  position: relative;
+  display : inline-block;
+  float : left;
+  text-align : center;
+  color : white;
+  width : 10vw;
+  height : 5vh;
+  text-decoration: none;
+}
+.modeSelect:hover {
+  background-color:red;
+}

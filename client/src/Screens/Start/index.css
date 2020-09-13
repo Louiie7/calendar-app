@@ -1,0 +1,28 @@
+.loginContainer {
+  position: absolute;
+  width : 75%;
+  top : 20%;
+  left : 12.5%;
+  text-align: center
+}
+.loginText {
+  font-size: 3rem;
+
+}
+.container {
+  position: relative;
+  width : 75vw;
+  height : 100vh;
+  top : 12.5%;
+  left : 12.5%;
+}
+.loginUsername {
+  position: relative;
+  padding-bottom: 1vh;
+}
+.loginPass {
+  position: relative;
+}
+.pass {
+  font-size: 10vh;
+}
